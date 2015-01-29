@@ -9,13 +9,13 @@
 <body>
 
 	<header>
-		<img id ="logo" src="http://i.imgur.com/5jfcRvG.png" title="source: imgur.com" />
+		<img id ="logo" src="http://i.imgur.com/yyRrqvE.png" title="source: imgur.com" />
 		<% if current_user %>
 			<nav>
 				<ul>
-					<li><%= link_to 'Home', root_path %></li>
-					<li><%= link_to 'Groups', groups_path %></li>
-					<li><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></li>
+					<li id = 'button'><%= link_to 'H O M E', root_path %></li>
+					<li id = 'button'><%= link_to 'Groups', groups_path %></li>
+					<li id = 'button'><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></li>
 				</ul>
 			</nav>
 		<% end %>
