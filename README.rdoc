@@ -28,7 +28,6 @@ After you change out the keys you should be able to go into the rails console an
 
 You should now have a fully seeded database! Fire up the Rails server and play!
 
-
 Some of the technologies utilized:
 - Rails
   - Figaro gem
@@ -40,6 +39,12 @@ Some of the technologies utilized:
 - JS/jQuery
 - HTML/CSS
 
+User stories:
+- Users can sign up or log in
+- Users can play the game
+- Users can create groups
+- Users can join groups and view group scoreboards
+- Users can view their score on the global scoreboard
+
 In the future, we want the app to incorporate more questions. Ideally we would want the quiz questions to incorporate hottest trends, live streaming feeds, and questions pertaining to timeframes. 
 Enjoy!
-
