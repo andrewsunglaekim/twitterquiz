@@ -28,7 +28,7 @@ After you change out the keys you should be able to go into the rails console an
 
 You should now have a fully seeded database! Fire up the Rails server and play!
 
-You can find the entity relations ship diagrams <a href="https://github.com/andrewsunglaekim/twitterquiz/blob/master/public/twitterquiz_erds.png">here</a>
+You can find the entity relations ship diagrams at https://github.com/andrewsunglaekim/twitterquiz/blob/master/public/twitterquiz_erds.png
 
 
 Some of the technologies utilized:
