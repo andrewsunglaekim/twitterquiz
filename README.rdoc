@@ -1,7 +1,9 @@
-== Trendster
+= Trendster
 
 Trendster is a fun Twitter quiz app built on Ruby on Rails! It utilizes the twitter Rest API to update its database.
 
+===
+Configuration
 To run this app:
 Fork the repo and clone it to your local machine then run bundle install, some rake commands, and figaro installation in your command terminal:
     $ bundle install
@@ -28,7 +30,10 @@ After you change out the keys you should be able to go into the rails console an
 
 You should now have a fully seeded database! Fire up the Rails server and play!
 
-Some of the technologies utilized:
+You can find the entity relations ship diagrams at https://github.com/andrewsunglaekim/twitterquiz/blob/master/public/twitterquiz_erds.png
+
+===
+Technologies:
 - Rails
   - Figaro gem
   - Twitter gem
@@ -39,11 +44,17 @@ Some of the technologies utilized:
 - JS/jQuery
 - HTML/CSS
 
+===
 User stories:
+
 - Users can sign up or log in
+
 - Users can play the game
+
 - Users can create groups
+
 - Users can join groups and view group scoreboards
+
 - Users can view their score on the global scoreboard
 
 In the future, we want the app to incorporate more questions. Ideally we would want the quiz questions to incorporate hottest trends, live streaming feeds, and questions pertaining to timeframes. 
